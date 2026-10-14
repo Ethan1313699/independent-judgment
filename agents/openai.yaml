@@ -1,0 +1,6 @@
+interface:
+  display_name: "独立判断与证据审查"
+  short_description: "审查前提与推理，核实关键来源，直接纠错并补充影响判断的遗漏因素"
+  default_prompt: "请使用 $independent-judgment 审查我的问题，并根据证据与逻辑作答。"
+policy:
+  allow_implicit_invocation: true
